@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tmh"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+<uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="20" />
+
+    <!-- GCM connects to Internet Services. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="com.example.tmh.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.tmh.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Network State Permissions to detect Internet status -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Main activity. -->
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+
+        <!-- Register Activity -->
+        <activity
+            android:name="com.example.tmh.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name="com.example.tmh.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.tmh.BroadcastTest"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- All Product Activity -->
+        <activity
+            android:name="com.example.tmh.AllCabs"
+            android:label="TMH" >
+        </activity>
+
+        <!-- Add Product Activity -->
+        <activity
+            android:name="com.example.tmh.Register"
+            android:label="Register" >
+        </activity>
+        <activity
+            android:name="com.example.tmh.UpdateLocation"
+            android:label="Register" >
+        </activity>
+        <activity
+            android:name="com.example.tmh.SendQuote"
+            android:label="Booking" >
+        </activity>
+
+        <!-- Edit Product Activity -->
+        <activity
+            android:name="com.example.tmh.MakeBooking"
+            android:label="Book a Cab" >
+        </activity>
+        <activity
+            android:name="com.example.tmh.ConfirmBook"
+            android:label="Confirm Booking" >
+        </activity>
+        <activity
+            android:name="com.example.tmh.Bookings"
+            android:label="Booking" >
+        </activity>
+        <activity
+            android:name="com.example.tmh.DriverBookings"
+            android:label="Booking" >
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.example.tmh" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.example.tmh.GCMIntentService" />
+    </application>
+
+</manifest>
