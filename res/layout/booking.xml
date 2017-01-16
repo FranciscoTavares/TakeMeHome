@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_15dp"
+                android:layout_marginRight="@dimen/pad_15dp"
+                android:background="@drawable/bg_input"
+                android:orientation="vertical" >
+
+  <View
+                        android:layout_width="fill_parent"
+                      
+                         android:layout_height="@dimen/pad_20dp" />
+ <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+  <TextView
+                        android:layout_width="fill_parent"
+                        android:text="Drivers Name"
+                        android:textColor="@color/black"
+                         android:textSize="@dimen/txt_14sp"
+                         android:paddingLeft="@dimen/pad_10dp"
+                        android:layout_height="@dimen/pad_20dp" />
+   <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+                    <TextView
+                        android:id="@+id/fname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edit_input"
+                      
+                        android:drawablePadding="@dimen/pad_20dp"
+                        android:ems="10"
+                        android:textColor="@color/black"
+
+                  
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_14sp" >
+
+                        <requestFocus />
+                    </TextView>
+                     <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+                    
+ <TextView
+                        android:layout_width="fill_parent"
+                        android:text="Number plate"
+                        android:textColor="@color/black"
+                         android:textSize="@dimen/txt_14sp"
+                         android:paddingLeft="@dimen/pad_10dp"
+                        android:layout_height="@dimen/pad_20dp" />
+  <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+                    <TextView
+                      android:id="@+id/nplate"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edit_input"
+                      
+                        android:drawablePadding="@dimen/pad_20dp"
+                        android:ems="10"
+                      
+                        android:textColor="@color/black"
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_14sp" />
+ <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+                    <EditText
+                        android:id="@+id/gofrom"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edit_input"
+                        
+                        android:drawablePadding="@dimen/pad_20dp"
+                        android:ems="10"
+                        android:textColor="@color/black"
+                        android:hint="depart from"
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_14sp" />
+ <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+                    <EditText
+                        android:id="@+id/go_to"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edit_input"
+                       
+                        android:drawablePadding="@dimen/pad_20dp"
+                        android:ems="10"
+                        android:hint="Destination"
+                        android:textColor="@color/black"
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_14sp" />
+ <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+ <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+
+                    <Button
+                        android:id="@id/btnCreateProducts"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_50dp"
+                        android:background="@color/ligt_green"
+                        android:text="Book Cab"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_18sp" />
+                
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@id/signup"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/pad_50dp"
+        android:background="@drawable/bg_input"
+        android:textColor="@color/ligt_green" 
+        android:text="back to login"/>
+
+</LinearLayout>

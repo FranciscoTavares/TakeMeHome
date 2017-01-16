@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="main_color_gray_lt">#ffa1a1a1</color>
+    <color name="light_black">#ff7a7070</color>
+    <color name="red">#ffff0000</color>
+    <color name="light_red">#ffff5e47</color>
+    <color name="ligt_green">#0099cc</color>
+     <color name="ligt_blue">#0099cc</color>
+     <color name="green">#008000</color>
+    
+    <color name="white_dull">#ffe5dede</color>
+    <color name="black">#ff3f3d3d</color>
+     <color name="winBackground">#98cb4a</color>
+    <color name="background">#f76d3c</color>
+    <color name="gray">#ffa1a1a1</color>
+    <color name="dark_gray">#ff9e9999</color>
+    <color name="light_black2">#ff726767</color>
+    <color name="menu_color">#ffffc9c3</color>
+    <color name="text_gray">#ff575e6e</color>
+    <color name="light2_red">#ffff624c</color>
+    <color name="gray_light">#ffdcd8d8</color>
+    <color name="tab_color">#ffffff8d</color>
+    <color name="side_menu_saperator">#ff727a84</color>
+    <color name="my_purchase_list_sap">#ffebebeb</color>
+    <color name="profile_signout_bg">#ff727a84</color>
+    <color name="p_color">#ff575e6e</color>
+    <color name="coupon_color">#ff575e6e</color>
+    <color name="daily_deal_trans_bg">#ff263342</color>
+
+    <color name="ColorPrimary">#FF5722</color>
+    <color name="ColorPrimaryDark">#E64A19</color>
+  
+</resources>
+

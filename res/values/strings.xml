@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidConnectingToPhpMySQLActivity!</string>
+   
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="app_name">TakeMeHome</string>
+    <string name="email_1">E-mail address</string>
+    <string name="Password">........</string>
+    <string name="signin">Sign in</string>
+    <string name="forgotpass">Forgot password?</string>
+    <string name="Newhere">New here?</string>
+    <string name="SignUp">Sign Up</string>
+     <string name="createaccount">Dont have an account. Sign up.</string>
+    
+    <string name="facebook">facebook</string>
+    <string name="dailydeal">Daily Deal</string>
+    <string name="new1">PROPOSED</string>
+    <string name="popular">ONGOING</string>
+    <string name="endingsoon">COMPLETED</string>
+    <string name="$150">$150</string>
+    <string name="$100">$100</string>
+    <string name="Bought">Bought</string>
+     <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="s45">45</string>
+    <string name="s52">52%</string>
+    <string name="s32">32</string>
+    <string name="remaining">Remaining</string>
+    <string name="saving">Saving</string>
+    <string name="blue_mountains">Blue Mountains Day Tour</string>
+    <string name="Shangri_La">Shangri-La Hotel</string>
+    <string name="australian">Australian</string>
+    <string name="coupon">COUPON</string>
+    <string name="code">00309898987</string>
+    <string name="redeamed">REDEAMED</string>
+    <string name="mypurchase">My Purchases</string>
+    <string name="date">2.4.2014</string>
+    <string name="$45">$45</string>
+    <string name="redeemed">Redeemed</string>
+    <string name="expired">Expired</string>
+    <string name="fancy_a">Mgahinga Park Reserve?</string>
+    <string name="purchases">Purchases</string>
+    <string name="s450">$450</string>
+    <string name="profile">Profile</string>
+    <string name="john">John Doe</string>
+    <string name="example">example@gmail.com</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="notification">Notification</string>
+    <string name="passcode">Pass Code</string>
+    <string name="aboutdailydeal">About Daily Deals</string>
+    <string name="john1">John</string>
+    <string name="john2">Doe</string>
+        <string name="search_result">Search Result!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Type and Search</string>
+    <string name="menu_search">Search</string>
+    <string name="email_profile">Email</string>
+    <string name="signout">Signout</string>
+    <string name="signout_profile">Sign Out</string>
+    <string name="paragraph">"The stunning Mgahinga Park  is a little over 
+an hour from kigali and the very best way to visit our  Tour for the great value of only $79.Enjoy Rwanda natural native animals in their natural habitat, spectecular scenic lookouts,an abundance of Aboriginal history and the chanceto ride the steepest railway in the world!
+Enjoy Rwandas natural native animals in their natural habitat,spectecular scenic lookouts."</string>
+    <string name="timeleft">Time left</string>
+    <string name="timeleft2">36:16:12</string>
+    <string name="search">Search</string>
+</resources>
+    

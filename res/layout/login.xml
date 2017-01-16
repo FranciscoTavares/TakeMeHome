@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.75"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="156dp"
+            android:layout_height="156dp"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_15dp"
+                android:layout_marginRight="@dimen/pad_15dp"
+                android:background="@drawable/bg_input"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/pad_30dp"
+                    android:paddingRight="@dimen/pad_30dp"
+                    android:paddingTop="@dimen/pad_10dp" >
+
+                    <EditText
+                        android:id="@id/etemail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edit_input"
+                        android:drawableLeft="@drawable/icon_email_big"
+                        android:drawablePadding="@dimen/pad_20dp"
+                        android:hint="phone number"
+                        android:inputType="phone"
+                        android:textColor="#000000"
+                        android:padding="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_14sp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+
+                    <EditText
+                        android:id="@id/etpassword"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edit_input"
+                        android:drawableLeft="@drawable/icon_password_big"
+                        android:drawablePadding="@dimen/pad_20dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/Password"
+                        android:inputType="textPassword"
+                        android:textColor="#000000"
+                        android:padding="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_14sp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+
+                    <Button
+                        android:id="@id/btnCreateProducts"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_50dp"
+                        android:background="@color/ligt_green"
+                        android:text="@string/signin"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_18sp" />
+
+                    <TextView
+                      
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/transparent"
+                        android:gravity="center"
+                        android:padding="@dimen/pad_10dp"
+                        android:text="@string/forgotpass"
+                        android:textColor="@color/light_black" />
+                        <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@id/signup"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/pad_50dp"
+        android:background="@drawable/bg_input"
+        android:textColor="@color/ligt_green" 
+        android:text="@string/createaccount"/>
+
+</LinearLayout>

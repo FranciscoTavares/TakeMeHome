@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="transparent">#ffffff</item>
+    <item type="drawable" name="actionbar_bg">#4dc247</item>
+</resources>

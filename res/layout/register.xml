@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_15dp"
+                android:layout_marginRight="@dimen/pad_15dp"
+                android:background="@drawable/bg_input"
+                android:orientation="vertical" >
+
+  <View
+                        android:layout_width="fill_parent"
+                        android:background="@color/white"
+                         android:layout_height="@dimen/pad_20dp" />
+<TextView 
+       android:layout_width="fill_parent"
+       android:textColor="@color/ligt_green"
+       android:background="@color/white"
+       android:padding="@dimen/pad_10dp"
+                android:layout_height="wrap_content"
+    android:text="Fill all the  fields with *"
+    android:textSize="18sp"/>
+  <View
+                        android:layout_width="fill_parent"
+                        
+                        android:layout_height="@dimen/pad_20dp" />
+                    <EditText
+                        android:id="@+id/fname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edit_input"
+                        android:drawableLeft="@drawable/icon_email_big"
+                        android:drawablePadding="@dimen/pad_20dp"
+                        android:ems="10"
+                        android:textColor="@color/black"
+                        android:inputType="textPersonName" 
+                        android:hint="Firstname *"
+                   
+                        android:padding="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_14sp" >
+
+                        <requestFocus />
+                    </EditText>
+ <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+                    <EditText
+                        android:id="@+id/lname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edit_input"
+                        android:drawableLeft="@drawable/icon_email_big"
+                        android:drawablePadding="@dimen/pad_20dp"
+                        android:ems="10"
+                        android:hint="lastname"
+                        android:textColor="@color/black"
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_14sp" />
+ <View
+                        android:layout_width="fill_parent"
+                        android:text="choose user type"
+                        android:layout_height="@dimen/pad_10dp" />
+
+                    <Spinner
+                        android:id="@+id/spiner"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:background="@drawable/bg_edit_input"
+                        android:drawableLeft="@drawable/icon_email_big"
+                        android:drawablePadding="@dimen/pad_20dp"
+                        android:ems="10"
+                        android:padding="@dimen/pad_10dp"
+                        android:spinnerMode="dropdown"
+                        android:text="Select type"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_14sp" />
+                    <EditText
+                        android:id="@+id/tel"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edit_input"
+                        android:drawableLeft="@drawable/icon_email_big"
+                        android:drawablePadding="@dimen/pad_20dp"
+                       
+                        android:ems="10"
+                         android:inputType="phone" 
+                        android:hint="Telephone*"
+                        android:textColor="@color/black"
+                        
+                        android:padding="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_14sp" />
+ <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+                    <EditText
+                        android:id="@id/etemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edit_input"
+                        android:drawableLeft="@drawable/icon_email_big"
+                        android:drawablePadding="@dimen/pad_20dp"
+                        android:hint="Email address*"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black"
+                        
+                        android:padding="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_14sp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+
+                    <EditText
+                        android:id="@id/etpassword"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_edit_input"
+                        android:drawableLeft="@drawable/icon_password_big"
+                        android:drawablePadding="@dimen/pad_20dp"
+                        android:gravity="center_vertical"
+                        android:hint="@string/Password"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/pad_10dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_14sp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_10dp" />
+
+                    <Button
+                        android:id="@id/btnCreateProducts"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/pad_50dp"
+                        android:background="@color/ligt_green"
+                        android:text="SignUp"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_18sp" />
+                
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@id/signup"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/pad_50dp"
+        android:background="@drawable/bg_input"
+        android:textColor="@color/ligt_green" 
+        android:text="back to login"/>
+
+</LinearLayout>

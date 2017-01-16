@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@id/mainv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@id/tab_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ligt_green"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/pad_30dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@id/tab1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="BOOKINGS"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"  />
+
+                <View
+                    android:id="@id/view1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.5dip"
+                    android:background="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@id/tab2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:textStyle="bold"
+                    android:text="CABS"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@id/view2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.5dip"
+                    android:background="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@id/tab3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                      android:textStyle="bold"
+                    android:text="FAVOURITES"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+                <View
+                    android:id="@id/view3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.5dip"
+                    android:background="@null" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+           />
+
+       <ListView
+           android:id="@android:id/list"
+           android:layout_width="298dp"
+           android:layout_height="372dp"
+           android:layout_gravity="center" />
+       
+  <Button
+        android:id="@id/tv4"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/pad_50dp"
+        android:background="@drawable/bg_input"
+        android:textColor="@color/ligt_green" 
+        android:text="07771971"/>
+
+</LinearLayout>    
+
+</LinearLayout>
